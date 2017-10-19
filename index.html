@@ -29,7 +29,7 @@
         <link href="css/animate.css" rel="stylesheet">
 
         <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
@@ -67,8 +67,7 @@
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#education">Education</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#internship">Internship</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#education">Education</a></li>                                
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
@@ -92,11 +91,11 @@
                             <p class="promo-block-text">Windows Application Developer</p>
                         </div>
                         <ul class="list-inline">
-                            <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-google"></i></a></li>
-                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
-                            <li><a href="https://github.com/thanakritv8" class="social-icons"><i class="icon-social-github"></i></a></li>
+                            <li><a href="#" class="social-icons" target="_blank"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="#" class="social-icons" target="_blank"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="#" class="social-icons" target="_blank"><i class="icon-social-google"></i></a></li>
+                            <li><a href="#" class="social-icons" target="_blank"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a href="https://github.com/thanakritv8" class="social-icons" target="_blank"><i class="icon-social-github"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -156,13 +155,12 @@
 
         <!-- Education -->
         <div id="education">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg" data-auto-height="true">
                     <div class="row">
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Education</h2>
-                                <p>Batman would be jealous.</p>
+                                <h2 class="margin-b-0">Education</h2>                                
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
@@ -207,18 +205,50 @@
         </div>
         <!-- End Education -->
 
-        <!-- Internship -->
-        <div id="internship">
-            <div class="container content-lg" data-auto-height="true">            
+        <!-- Experience -->
+        <div id="experience">
+            <!--<div class="bg-color-sky-light" data-auto-height="true">-->
+                <div class="container content-lg" data-auto-height="true">
                     <div class="row">
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Internship</h2>
+                                <h2 class="margin-b-0">Experience</h2>
                                 <p>Batman would be jealous.</p>
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
                             <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-6 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i><img src="img/icon/maxxis.png" height="46" width="120"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Maxxis International (Thailand) Co.,Ltd.</h3>
+                                            <p class="margin-b-5">
+                                                <li>Programmer Team Leader</li>
+                                                <ol>2016 To Present</ol>
+                                                <li>Programmer</li>
+                                                <ol>2015 To 2016</ol>
+                                            </p>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="col-md-6 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i><img src="img/icon/kpt.png" height="46" width="46"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>KPT Worldwide Co.,Ltd.</h3>
+                                            <p class="margin-b-5">
+                                                <li>Programmer and IT Support</li>
+                                                <ol>Mar 2015 To Aug 2015</ol>
+                                            </p>
+                                        </div>   
+                                    </div>
+                                </div> 
+
                                 <div class="col-md-6 md-margin-b-4">
                                     <div class="service" data-height="height">
                                         <div class="service-element">
@@ -244,71 +274,20 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>                                
-                            </div>
-                            <!--// end row -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-            </div>
-        </div>
-        <!-- End Internship -->
-
-        <!-- Experience -->
-        <div id="experience">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Experience</h2>
-                                <p>Batman would be jealous.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row row-space-2 margin-b-4">
-                                <div class="col-md-6 md-margin-b-4">
-                                    <div class="service bg-color-sky-light" data-height="height">
-                                        <div class="service-element">
-                                            <i><img src="img/icon/maxxis.png" height="46" width="120"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>Maxxis International (Thailand) Co.,Ltd.</h3>
-                                            <p class="margin-b-5">
-                                                <li>Programmer Team Leader</li>
-                                                <ol>2016 To Present</ol>
-                                                <li>Programmer</li>
-                                                <ol>2015 To 2016</ol>
-                                            </p>
-                                        </div>   
-                                    </div>
-                                </div>
-                                <div class="col-md-6 md-margin-b-4">
-                                    <div class="service bg-color-sky-light" data-height="height">
-                                        <div class="service-element">
-                                            <i><img src="img/icon/kpt.png" height="46" width="46"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3>KPT Worldwide Co.,Ltd.</h3>
-                                            <p class="margin-b-5">
-                                                <li>Programmer and IT Support</li>
-                                                <ol>Mar 2015 To Aug 2015</ol>
-                                            </p>
-                                        </div>   
-                                    </div>
-                                </div>                                
+                                </div>   
                             </div>
                             <!--// end row -->
                         </div>
                     </div>
                     <!--// end row -->
                 </div>
-            </div>
+            <!--</div>-->
         </div>
         <!-- End Experience -->
 
         <!-- Work -->
         <div id="work">
+            <div class="bg-color-sky-light">
                 <div class="container content-lg">
                     <div class="row">
                         <div class="col-sm-3 sm-margin-b-30">
@@ -325,7 +304,7 @@
                                     <!-- Work -->
                                     <div class="work work-popup-trigger">
                                         <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+                                            <img class="full-width img-responsive" src="img/work/rdcbk.jpg" alt="Portfolio Image">
                                         </div>
                                         <div class="work-popup-overlay">
                                             <div class="work-popup-content">
@@ -364,7 +343,7 @@
                                     <!-- Work -->
                                     <div class="work work-popup-trigger">
                                         <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
+                                            <img class="full-width img-responsive" src="img/work/rdcbkteam.jpg" alt="Portfolio Image">
                                         </div>
                                         <div class="work-popup-overlay">
                                             <div class="work-popup-content">
@@ -522,13 +501,13 @@
                     </div>
                     <!--// end row -->
                 </div>
+            </div>
         </div>
         <!-- End Work -->
             
         <!-- Contact -->
         <div id="contact">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="container content-lg">
+            <div class="container content-lg" data-auto-height="true">
                     <div class="row">
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
@@ -554,7 +533,6 @@
                         </div>
                     </div>
                     <!--// end row -->
-                </div>
             </div>
         </div>
         <!-- End Contact -->
