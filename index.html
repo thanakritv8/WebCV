@@ -12,7 +12,7 @@
         <!-- GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
 
         <!-- PAGE LEVEL PLUGIN STYLES -->
         <link href="css/animate.css" rel="stylesheet">
@@ -280,25 +280,29 @@
                         <div class="col-sm-3 sm-margin-b-30">
                             <div class="text-right sm-text-left">
                                 <h2 class="margin-b-0">Portfolio</h2>
-                                <p>Examples.</p>
+                                <p>Examples.</p>  
                                 <div class="button-group btn-group-vertical filters-button-group">
                                     <button type="button" class="btn btn-default" data-filter="*">All Projects</button>
-                                    <button type="button" class="btn btn-default" data-filter=".winapp">Windows Application</button>
-                                    <button type="button" class="btn btn-default" data-filter=".andapp">Android Application</button>
-                                    <button type="button" class="btn btn-default" data-filter=".webapp">Web Application</button>
-                                    <button type="button" class="btn btn-default" data-filter=".webapp">Pocket PC</button>                                  
-                                    <button type="button" class="btn btn-default" data-filter=".micro">Microcontroller</button>
-                                    <button type="button" class="btn btn-default" data-filter=".maintenance">Maintenance</button>                                  
-                                </div>                               
+                                    <button type="button" class="btn btn-default" data-filter=".winapp">Windows Application</button> <!--Information, Monitor, SMS, Keyence, Recycle, Fill, Stock, VNC, CNC, Kanlaya -->
+                                    <button type="button" class="btn btn-default" data-filter=".webapp">Web Application</button> <!-- Vtcc, KPT-->
+                                    <button type="button" class="btn btn-default" data-filter=".pocket">Pocket PC And WCF</button>
+                                    <button type="button" class="btn btn-default" data-filter=".micro">Microcontroller</button> <!--SMS, RDC-->                                  
+                                    <button type="button" class="btn btn-default" data-filter=".maintenance">Maintenance</button>                                 
+                                </div>                                                             
                             </div>
                         </div>
                         <div class="col-sm-8 col-sm-offset-1">
+                            
+                           <div class="row">
+                           <h1>All </h1>
+                           </div>
+                            
                             <!-- Masonry Grid -->
                             <div class="masonry-grid  row row-space-2">
                                 <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
                                 <!--------------------------------------------------------Windows Application------------------------------------------------------------>
+                                <!--Information-->
                                 <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
-                                    <!-- Work -->
                                     <div class="work work-popup-trigger">
                                         <div class="work-overlay">
                                             <img class="full-width img-responsive" src="img/work/winapp/planning.png" alt="Portfolio Image">                                            
@@ -313,25 +317,7 @@
                                                 <div class="row">
                                                     <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                                         <div class="margin-t-10 sm-margin-t-0">
-                                                            <div class="row">
-                                                                <div class="col-sm-4 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/winapp/account.png" alt="Portfolio Image">
-                                                                </div>
-                                                                <div class="col-sm-4 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/winapp/schbs.png" alt="Portfolio Image">
-                                                                </div>
-                                                                <div class="col-sm-4 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/winapp/vnc.png" alt="Portfolio Image">
-                                                                </div>
-                                                            </div>
-                                                            <div class="row">
-                                                                <div class="col-sm-6 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/winapp/sumQC.png" alt="Portfolio Image">
-                                                                </div>
-                                                                <div class="col-sm-6 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/winapp/repairQC.png" alt="Portfolio Image">
-                                                                </div>
-                                                            </div>                                                            
+                                                            <img class="full-width img-responsive" src="img/work/winapp/planning.png" alt="Portfolio Image">                                                           
                                                             <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>                                                            
                                                         </div>
                                                     </div>
@@ -346,11 +332,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End Work -->
                                 </div>
+                                <!--End Information-->
 
+                                <!--Monitor-->
                                 <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
-                                    <!-- Work -->
                                     <div class="work work-popup-trigger">
                                         <div class="work-overlay">
                                             <img class="full-width img-responsive" src="img/work/winapp/winSMS.png" alt="Portfolio Image">
@@ -359,14 +345,14 @@
                                             <div class="work-popup-content">
                                                 <a href="javascript:void(0);" class="work-popup-close">Hide</a>
                                                 <div class="margin-b-30">
-                                                    <h3 class="margin-b-5">SMS alert System</h3>
-                                                    <span>Send sms an alert when an error occurs.</span>
+                                                    <h3 class="margin-b-5">Monitor</h3>
+                                                    <span>Control Machine</span>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                                         <div class="margin-t-10 sm-margin-t-0">
                                                             <img class="full-width img-responsive" src="img/work/winapp/winSMS.png" alt="Portfolio Image">
-                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <p>เป็นโปรแกรมที่ใช้ในการส่งข้อมูลและรับข้อมูลร่วมกับอุปกรณ์ HMI, PLC และ Hardware อื่นๆ เพื่อเก็บข้อมูลและควบคุมเครื่องจักรให้เป็นไปตามขั้นตอน</p>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-4">
@@ -379,12 +365,54 @@
                                                 </div>
                                             </div>
                                         </div>                                      
-                                    </div>                                    
-                                    <!-- End Work -->
+                                    </div>
                                 </div>
+                                <!--End Monitor-->
 
+                                <!--SMS-->
                                 <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
-                                    <!-- Work -->
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Monitor Machine</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                                </div>
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                                </div>
+                                                            </div>                                                            
+                                                            <p>เป็นโปแกรมที่รับข้อมูลมาจากฐานข้อมูลเมื่อเกิดเหตุการณ์ต่างๆที่ต้องการส่งข้อความ</p>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End SMS-->
+
+                                <!--Keyence-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
                                     <div class="work work-popup-trigger">
                                         <div class="work-overlay">
                                             <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
@@ -408,6 +436,7 @@
                                                                 </div>
                                                             </div>                                                            
                                                             <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                        
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-4">
@@ -421,12 +450,265 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    <!-- End Work -->
                                 </div>
-                                <!----------------------------------------------------------------------End Windows Application------------------------------------------------------------------>  
+                                <!--End Keyence-->
 
+                                <!--Recycle-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Monitor Machine</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                                </div>
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                                </div>
+                                                            </div>                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End Recycle-->
+
+                                <!--Fill-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Monitor Machine</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                                </div>
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                                </div>
+                                                            </div>                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End Fill-->
+
+                                <!--Stock-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Monitor Machine</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                                </div>
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                                </div>
+                                                            </div>                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End Stock-->
+
+                                <!--VNC-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Monitor Machine</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                                </div>
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                                </div>
+                                                            </div>                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End VNC-->
+
+                                <!--CNC-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Monitor Machine</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                                </div>
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                                </div>
+                                                            </div>                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End CNC-->
+
+                                <!--Kanlaya-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item winapp" data-category="winapp">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">
+                                            <img class="full-width img-responsive" src="img/work/winapp/monitor.png" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Monitor Machine</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <div class="row">
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                                </div>
+                                                                <div class="col-sm-6 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                                </div>
+                                                            </div>                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End Kanlaya-->
+                                <!--------------------------------------------------------End Windows Application------------------------------------------------------------>
+
+                                <!--------------------------------------------------------Web Application-------------------------------------------------------------------->
+                                <!--E-Office Vtcc-->
                                 <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item webapp" data-category="webapp">
-                                    <!-- Work -->
                                     <div class="work work-popup-trigger">
                                         <div class="work-overlay">
                                             <img class="full-width img-responsive" src="img/work/webapp/kpt.png" alt="Portfolio Image">
@@ -440,28 +722,15 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
-                                                            <div class="row">                                                                
-                                                                <div class="col-sm-4 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
-                                                                </div>
-                                                                <div class="col-sm-4 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptcamera.png" alt="Portfolio Image">
-                                                                </div>
-                                                                <div class="col-sm-4 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptleave.png" alt="Portfolio Image">
-                                                                </div>    
+                                                        <div class="row">
+                                                            <div class="col-sm-6 sm-margin-b-20">
+                                                                <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
                                                             </div>
-                                                            <div class="row">                                                                
-                                                                <div class="col-sm-6 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptmenu.png" alt="Portfolio Image">
-                                                                </div>
-                                                                <div class="col-sm-6 sm-margin-b-20">
-                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptstock.png" alt="Portfolio Image">
-                                                                </div>
-                                                            </div>                                                                                                                                                                                 
-                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
-                                                        </div>
+                                                            <div class="col-sm-6 sm-margin-b-20">
+                                                                <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                            </div>
+                                                        </div>                                                            
+                                                        <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>                                                        
                                                     </div>
                                                     <div class="col-sm-4">
                                                         <div class="margin-t-10 sm-margin-t-0">
@@ -474,16 +743,57 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    <!-- End Work -->
-                                </div> 
+                                </div>
+                                <!--End E-Office Vtcc--> 
 
-                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item micro" data-category="micro">
-                                    <!-- Work -->
+                                <!--E-Office KPT-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item webapp" data-category="webapp">
                                     <div class="work work-popup-trigger">
                                         <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                            <img class="full-width img-responsive" src="img/work/webapp/kpt.png" alt="Portfolio Image">
                                         </div>
                                         <div class="work-popup-overlay">
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">KPT Worldwide</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="row">
+                                                            <div class="col-sm-6 sm-margin-b-20">
+                                                                <img class="full-width img-responsive" src="img/work/winapp/scanbarcode.png" alt="Portfolio Image">
+                                                            </div>
+                                                            <div class="col-sm-6 sm-margin-b-20">
+                                                                <img class="full-width img-responsive" src="img/work/winapp/ufdb.png" alt="Portfolio Image">
+                                                            </div>
+                                                        </div>                                                            
+                                                        <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>                                                        
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End E-Office KPT-->
+                                <!--------------------------------------------------------End Web Application---------------------------------------------------------------->
+                                
+                                <!--------------------------------------------------------Pocket PC And WCF------------------------------------------------------------------>
+                                <!--Pocket PC-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item pocket" data-category="pocket">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
                                             <div class="work-popup-content">
                                                 <a href="javascript:void(0);" class="work-popup-close">Hide</a>
                                                 <div class="margin-b-30">
@@ -492,9 +802,14 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                        <div class="margin-t-10 sm-margin-t-0">
-                                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
                                                             <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-4">
@@ -508,19 +823,481 @@
                                             </div>
                                         </div>                                        
                                     </div>
-                                    <!-- End Work -->
-                                </div> 
-
-                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item andapp" data-category="andapp">
-                                    <!-- Work -->
+                                </div>
+                                <!--End Pocket PC-->
+                                
+                                <!--WCF-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item pocket" data-category="pocket">
                                     <div class="work work-popup-trigger">
-                                        <div class="work-overlay">
-                                            <img class="full-width img-responsive" src="img/work/rdcbkteam.jpg" alt="Portfolio Image">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>                                        
                                     </div>
-                                    <!-- End Work -->
-                                </div> 
-                                                              
+                                </div>
+                                <!--End WCF-->  
+
+                                <!--------------------------------------------------------Microcontroller-------------------------------------------------------------------->
+                                <!--SMS-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item micro" data-category="micro">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End SMS--> 
+
+                                <!--RDC1-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item micro" data-category="micro">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End RDC1--> 
+
+                                <!--RDC2-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item micro" data-category="micro">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End RDC2--> 
+
+                                <!--RDC3-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item micro" data-category="micro">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End RDC3-->
+                                 
+                                <!--RDC4-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item micro" data-category="micro">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End RDC4--> 
+                                <!-----------------------------------------------------End Microcontroller------------------------------------------------------------------->
+
+                                <!-----------------------------------------------------Maintenance--------------------------------------------------------------------------->
+                                <!--maintenance Aerothai-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item maintenance" data-category="maintenance">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End maintenance Aerothai-->
+
+                                <!--maintenance1-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item maintenance" data-category="maintenance">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End maintenance1-->
+
+                                <!--maintenance2-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item maintenance" data-category="maintenance">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End maintenance2-->
+
+                                <!--maintenance3-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item maintenance" data-category="maintenance">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End maintenance3-->
+
+                                <!--maintenance4-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item maintenance" data-category="maintenance">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End maintenance4-->
+
+                                <!--maintenance5-->
+                                <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4 element-item maintenance" data-category="maintenance">
+                                    <div class="work work-popup-trigger">
+                                        <div class="work-overlay">                                            
+                                            <img class="full-width img-responsive" src="img/work/micro/arduinoSMS.jpg" alt="Portfolio Image">
+                                        </div>
+                                        <div class="work-popup-overlay">                                            
+                                            <div class="work-popup-content">
+                                                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                <div class="margin-b-30">
+                                                    <h3 class="margin-b-5">Arduino SMS System</h3>
+                                                    <span>xxxxxxx.</span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                        <div class="margin-t-10 sm-margin-t-0">                                                            
+                                                            <div class="row">                                                                
+                                                                <div class="col-sm-4 sm-margin-b-20">
+                                                                    <img class="full-width img-responsive" src="img/work/webapp/kptlogin.png" alt="Portfolio Image">
+                                                                </div>                                                                                                                                  
+                                                            </div>                                                                                                                                                                                                                                            
+                                                            <p>It is a program to control tire production and tire data. The program can set user permissions, control the machine shutdown, set the working standard, check the production balance.</p>
+                                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="margin-t-10 sm-margin-t-0">
+                                                            <p class="margin-b-5"><strong>Project Leader:</strong> Lennon Lu</p>
+                                                            <p class="margin-b-5"><strong>Designer:</strong> Thanakrit</p>
+                                                            <p class="margin-b-5"><strong>Developer:</strong> Thanakrit</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <!--End maintenance5--> 
+                                <!-----------------------------------------------------End Maintenance----------------------------------------------------------------------->                              
+                            
                             </div>
                             <!-- End Masonry Grid -->
                         </div>
